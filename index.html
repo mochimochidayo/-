@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>中国語テスト</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        input {
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>中国語テスト</h1>
+    <button id="playAudio">音声を再生</button>
+    <div>
+        <label for="pinyin">ピンイン:</label>
+        <input type="text" id="pinyin" name="pinyin">
+    </div>
+    <div>
+        <label for="simplified">簡体字:</label>
+        <input type="text" id="simplified" name="simplified">
+    </div>
+    <button id="submitAnswer">答えを提出</button>
+    <button id="reset">リセット</button>
+    <div id="result"></div>
+    <script src="script.js"></script>
+</body>
+</html>
